@@ -4,10 +4,10 @@ timeout /t 30
 set startup_folder=%APPDATA%\Microsoft\Windows\Start Menu\Programs\Startup
 
 :: Set the path of your SkibidiOT.exe file
-set exe_path=C:\path\to\SkibidiOT.exe
+set exe_path=C:\path\to\BJCOT.exe
 
 :: Copy SkibidiOT.exe to the Startup folder
-copy "%exe_path%" "%startup_folder%\SkibidiOT.exe"
+copy "%exe_path%" "%startup_folder%\BJCOT.exe"
 
 :: Optionally, you can run the executable immediately (optional)
-start "" "%startup_folder%\SkibidiOT.exe"
+start "" "%startup_folder%\BJCOT.exe"
